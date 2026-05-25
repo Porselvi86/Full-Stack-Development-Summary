@@ -1,0 +1,20 @@
+package Javaprograms;
+import java.util.Scanner;
+
+public class TemperatureCheck {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter temperature:");
+		int temp = sc.nextInt();
+		
+		if(temp > 35)
+		{
+			System.out.println("Temperature is above normal");
+		}
+
+	}
+
+}

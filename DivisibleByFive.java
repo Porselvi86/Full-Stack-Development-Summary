@@ -1,7 +1,7 @@
 package Javaprograms;
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class DivisibleByFive {
 
 	public static void main(String[] args) {
 		
@@ -10,13 +10,9 @@ public class EvenOrOdd {
 		System.out.println("Enter a number:");
 		int num = sc.nextInt();
 		
-		if(num % 2 == 0)
+		if(num % 5 == 0)
 		{
-			System.out.println("Number is Even");
-		}
-		else
-		{
-			System.out.println("Number is Odd");
+			System.out.println("Number is divisible by 5");
 		}
 
 	}
